@@ -1,3 +1,7 @@
+/*
+PROVIDED FILE
+Contains the data. This data populates our database.
+*/
 const courses = [
   {
     id: 1,

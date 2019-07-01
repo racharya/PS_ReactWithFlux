@@ -1,4 +1,5 @@
 /*
+Provided file
 This uses json-server, but with the module approach: https://github.com/typicode/json-server#module
 Downside: You can't pass the json-server command line options.
 Instead, can override some defaults by passing a config object to jsonServer.defaults();
@@ -73,6 +74,7 @@ function createSlug(value) {
     .toLowerCase();
 }
 
+// server side validation
 function validateCourse(course) {
   if (!course.title) return "Title is required.";
   if (!course.authorId) return "Author is required.";
